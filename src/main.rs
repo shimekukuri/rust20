@@ -14,7 +14,7 @@ use sqlx::{Pool, Postgres};
 #[tokio::main]
 async fn main() -> anyhow::Result<()> {
     dotenv().ok();
-    //TEST222å2
+    //TEST222å22
     let url = std::env::var("DATABASE_URL").expect("DATABASE_URL must be set.");
 
     let pool = PgPoolOptions::new()
